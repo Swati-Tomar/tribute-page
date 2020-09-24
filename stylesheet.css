@@ -1,0 +1,61 @@
+body{
+   background: url(https://designrshub-designrshub.netdna-ssl.com/wp-content/uploads/2012/08/09_free_linen_texture.jpg);
+}
+
+#title{
+  font-family: verdana ;
+  text-align: center;
+  margin: auto;
+  width:70%;
+  padding: 10px;
+  font-size: 30px;
+}
+#image{
+  max-width: 70%;
+   height: auto;
+   margin-left: auto;
+  margin-right:auto;
+  margin-top:-15px;
+  display: block; 
+}
+#img-caption{
+  max-width: 70%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:-15px;
+  padding: 20px;
+  font-size: 15px;
+  
+}
+p{
+  text-align: center;
+  font-size: 20px;
+}
+#tribute-info{
+  display: grid;
+  grid-templates-rows: auto auto;; 
+  width: 65%;
+  margin: auto ;
+  padding:10px;
+  text-align: justify;
+}
+#timeline{
+  border-style:none;
+  background-color: cream;
+  text-align: center;
+}
+#link-detail{
+  background : linear-gradient(90deg, #D4EFDF,#ABEBC6,#F9E79F);
+  border-width:0px;
+  animation-name: flash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes flash{
+  50%{
+    background : linear-gradient(90deg, #0000FF,#00FFFF,#A2D9CE);
+  }
+}
+
+
